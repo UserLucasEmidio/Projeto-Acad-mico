@@ -1,0 +1,113 @@
+@media screen and (max-width: 800px) {
+    .firstNav .firstUl li {
+        margin: 10px 0; /* Menos margem para itens do menu principal */
+    }
+    .firstNav {
+        position: static; /* Remova a posição absoluta no menu principal */
+        background-color:rgb(32, 32, 32);
+        
+    }
+
+    .firstNav .firstUl {
+        flex-direction: column; /* Empilhe os itens do menu principal */
+    }
+
+    .firstNav .firstUl li {
+        margin: 10px 0; /* Reduza as margens dos itens do menu principal */
+        background-color: rgb(32, 32, 32);
+    }
+
+    .secondNav {
+        align-items: center;
+        background-color: #F7F7F7;
+    }
+
+    .secondNav img {
+        width: 25%; /* Faça a imagem do segundo menu ocupar a largura total */
+    }
+
+    .secondNav .secondUl {
+        flex-direction: column; /* Empilhe os itens do segundo menu */
+        margin: 10px 0; /* Reduza a margem dos itens do segundo menu */
+    }
+
+    .secondNav .secondUl li {
+        margin-left: 0; /* Alinhe os itens do segundo menu à esquerda */
+    }
+
+    .aboutUS {
+        margin: 20px; /* Reduza as margens gerais para conteúdo */
+        text-align: center;
+    }
+
+    .img1 {
+        max-width: 100%; /* Faça a imagem ocupar a largura total */
+        height: auto;
+    }
+
+    .img2-align {
+        text-align: center;
+    display: block;
+    max-width: 100%; /* Define a largura máxima como 100% */
+    height: auto; /* Define a altura como "auto" para manter a proporção original */
+    margin: 10px 0;
+    }
+
+    .contactUS {
+        text-align: center; /* Alinhe o texto à esquerda */
+    }
+
+    .contactUS .icons {
+        text-align: center; /* Alinhe os ícones à esquerda */
+        margin: 10px 0; /* Reduza a margem dos ícones de contato */
+    }
+    .imagem-container {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+
+    .imagem1{
+        display: block;
+        margin-top: 20px;
+    }
+
+    .imagem2{
+        display: block;
+        margin-top: 20px;
+    }
+    .imagem {
+        display: block;
+        margin-top: 20px; 
+      }
+    
+    .text-image {
+        display: block;
+    }
+    .EveolutionText1{
+        padding-left: 70px;
+        padding-right: 70px;
+        text-align: justify;
+    }
+    
+    .EveolutionText2{
+        padding-left: 10px;
+        margin-right: 30px;
+        margin-left: 30px;
+        text-align: justify;
+        
+    }
+    .EveolutionText3{
+        padding-left: 10px;
+        padding-right:50px;
+        margin-right: 0px;
+        text-align: justify;
+    }
+}
+
+
+
+
+
+
+

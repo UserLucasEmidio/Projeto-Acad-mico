@@ -1,0 +1,259 @@
+*{
+margin: 0px;
+padding: 0px;   
+box-sizing: 0px; 
+
+}
+
+.body{
+    transition: 0.8s;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(54,52,52,1) 46%, rgba(45,43,43,1) 100%);
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/* abertura da primeiro menu de navegação de navegação*/
+
+.button {
+    width: 45px;
+    height: 45px;
+    border-radius: 10ch;
+}
+
+.gray {
+    background-color:rgb(26, 24, 24);
+}
+
+.firstNav{
+    background-color:rgb(32, 32, 32);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-weight: bold;
+    width: 100%;
+    padding: 10px;
+}
+
+.firstNav .firstUl {
+    display: flex;
+    flex: inline-block;
+    list-style-type: none;
+    
+    
+}
+/* Transição de Cor ao colocar o mouse na nav */
+.firstNav .firstUl li {
+    transition: 0.8s;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 0px 20px 0px 20px;
+    background-color: rgb(32, 32, 32);
+    text-align: center;
+    color: white;
+    border-radius: 16px 16px 16px 16px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/**/
+.firstNav .firstUl li:hover {
+background-color: white;
+color: rgb(0, 0, 0);
+}
+/* fechamento do primeiro menu de navegação*/
+/*abertura do segundo menu de navegação.*/
+.secondNav {
+    transition: 0.8s;
+    align-items: center;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(54,52,52,1) 46%, rgba(45,43,43,1) 100%);
+    
+    
+}
+
+.secondNav img{
+    
+transition: 0.8s;
+width: 20%;
+display: block;
+margin: 0 auto;
+top: 60px;
+position: relative;
+
+}
+
+
+.secondNav .secondUl li {
+    margin-left: 420px;
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    transition: 0.8s;
+}
+/*O ul esta junto com a classe eveolution de marquee*/
+.secondNav .secondUl {
+    flex: inline-block;
+    margin-right: 400px;
+    background-color: none;
+    transition: 0.8s;
+    
+}
+.eveolution{
+    text-align: center;
+}
+/* fechamento do segundo menu de navegação de navegação*/
+
+/* abertura sobre empresa */
+
+.aboutUS {
+    margin-left: 100px;
+    margin-right: 100px;
+    transition: 0.8s;
+
+}
+.h1container {
+        display: flex;
+        align-items: center;
+        position: relative;
+}
+.mission{
+    margin:50px;
+    font-size: medium;
+    top: 300;
+}
+
+
+
+.h1first {
+    transition: 0.8s;
+    margin-right: auto;
+    padding-left: 100px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+}
+
+
+/* fechamento sobre empresa */
+
+.img1 {
+    transition: 0.8s;
+    display: block;
+    margin-right: 50px;
+    right: 50px;
+    max-width: 60%;
+    height: auto;
+    position: relative;
+    border-radius: 15px;
+    opacity: 0.5;
+}
+
+.img2-align{
+    transition: 0.8s;
+   text-align: center;
+    display: block;
+    max-width: 100%; /* Define a largura máxima como 100% */
+    height: auto; /* Define a altura como "auto" para manter a proporção original */
+    margin: 10px 0;
+}
+
+
+
+
+
+/* abertura do contato */
+
+
+.contactUS {
+    color:rgb(255, 255, 255);
+    text-align: center;
+    transition: 0.8s;
+}
+
+.contactUS .icons {
+    text-align: center;
+    margin-left: 30px;
+    transition: 0.8s;
+}
+/*whatsapp*/ 
+.contactUS a .bi-whatsapp { 
+    color: rgb(255, 255, 255);
+margin-right: 30px;
+transition: 0.8s;
+}
+
+/*telegram*/
+.contactUS a .bi-telegram {
+    color: rgb(255, 255, 255);
+margin-right: 30px;
+transition: 0.8s;
+}
+
+/*telephone*/
+.contactUS a .bi-telephone {
+    color: rgb(255, 255, 255);
+margin-right: 30px;
+transition: 0.8s;
+
+}
+/*instagram*/
+.contactUS a .bi-instagram {
+    color: rgb(255, 255, 255);
+margin-right: 30px;
+transition: 0.8s;
+}
+
+/* fechamento do contato */
+
+
+
+p{
+    margin:50px;
+    font-size: medium;
+    top: 300;
+    color: white;
+}
+
+button{
+    background-color: #292929;
+    margin-bottom: 20px;
+}
+
+h1{
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+h3{
+    color: white;
+}
+
+h4{
+    color: white;
+}
+
+h5{
+    color: white;
+}
+
+.PrivacySecurity{
+    text-align: center;
+}
+
+.ODS{
+    margin-left: 95px;
+}
+
+span {
+    display: inline-block;
+    text-shadow: 0 0 0 whitesmoke;
+    animation:alternate;
+  }
+
+

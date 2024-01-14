@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+
+
+body{
+    background: rgb(65, 65, 65);
+}
+.caixa{
+margin: 175px;
+border: 2px solid black;
+background: rgb(247, 247, 247);
+border-radius:10vh;
+}
+
+img {
+    position: relative;
+    top: 65px;
+    width: 230px;
+}
+
+a {
+    text-align: center;
+    color:black
+}

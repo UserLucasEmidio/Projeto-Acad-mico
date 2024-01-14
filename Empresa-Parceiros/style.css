@@ -1,0 +1,160 @@
+*{
+    margin: 0px;
+    padding: 0px;   
+    box-sizing: 0px; 
+    
+    }
+
+.body{
+    transition: 0.8s;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(54,52,52,1) 46%, rgba(45,43,43,1) 100%);
+    color: white;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/* abertura da primeiro menu de navegação de navegação*/
+
+
+
+.firstNav{
+    transition: 0.8s;
+    background-color:rgb(32, 32, 32);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-weight: bold;
+    width: 100%;
+    padding: 10px;
+}
+
+.firstNav .firstUl {
+    transition: 0.8s;
+    display: flex;
+    flex: inline-block;
+    list-style-type: none;
+    
+    
+}
+
+.firstNav .firstUl li {
+    transition: 0.8s;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 0px 20px 0px 20px;
+    background-color: rgb(32, 32, 32);
+    text-align: center;
+    color: white;
+    border-radius: 16px 16px 16px 16px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.firstNav .firstUl li:hover {
+background-color: white;
+color:black
+}
+
+
+/*Div Pai da imagem 1 e imagem2 */
+.imagem-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  /*oque esta dentro do Pai*/
+  .imagem1 img {
+    border-radius: 25px;
+    display: block;
+    margin: 0;
+    margin-bottom: 10px; 
+}
+
+.imagem2 img {
+    border-radius: 25px;
+    display: block;
+    margin: 0;
+}
+
+.imagem1 img, .imagem2 img{
+    border-radius: 25px;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto; 
+    height: auto; 
+    margin: 0;
+}
+/*Todos os textos abaixo do titulo*/
+.EveolutionText1{
+    padding-left: 70px;
+    padding-right: 70px;
+    text-align: justify;
+}
+
+.EveolutionText2{
+    padding-left: 10px;
+    margin-right: 30px;
+    text-align: justify;
+    
+}
+.EveolutionText3{
+    padding-left: 10px;
+    padding-right:50px;
+    margin-right: 30px;
+    text-align: justify;
+}
+
+/*Titulos h1 alinhado ao centro*/
+.EveolutionTitle1{
+    padding-left: 70px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+.EveolutionTitle2{
+    padding-left: 70px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+.EveolutionTitle3{
+    padding-left: 70px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+.EveolutionTitle4{
+    padding-left: 70px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+/*div das primeiras duas imagens do site*/
+.text-image {
+    display: flex;
+    align-items: center;
+}
+/**/
+
+/*div do footer ou nav de parceria do site */
+.Parcerias-Footer{
+    background-color: rgb(68, 58, 77);
+    display: flex; 
+    justify-content:space-around;
+}
+
+/* lista não ordenada */
+.ol1{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+/*final da linha */
+.finalline{
+    margin-left: 60px;
+    margin-right: 60px;
+}

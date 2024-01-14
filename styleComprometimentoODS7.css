@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;   
+    box-sizing: 0px; 
+    
+    }
+    
+    .body{
+        transition: 0.8s;
+        background: rgb(0,0,0);
+        background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(54,52,52,1) 46%, rgba(45,43,43,1) 100%);
+        margin: 0px;
+        margin-left: 200px;
+        margin-right: 200px; 
+        
+    }
+    
+    /* abertura da primeiro menu de navegação de navegação*/
+    
+    .button {
+        transition: 0.8s;
+        width: 45px;
+        height: 45px;
+        border-radius: 10ch;
+    }
+    
+    .gray {
+        transition: 0.8s;
+        background-color:rgb(26, 24, 24);
+    }
+    
+    .firstNav{
+        transition: 0.8s;
+        background-color:rgb(32, 32, 32);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        font-weight: bold;
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .firstNav .firstUl {
+        transition: 0.8s;
+        display: flex;
+        flex: inline-block;
+        list-style-type: none;
+        
+        
+    }
+    
+    .firstNav .firstUl li {
+        transition: 0.8s;
+        margin-right: 50px;
+        margin-left: 50px;
+        padding: 0px 20px 0px 20px;
+        background-color: rgb(32, 32, 32);
+        text-align: center;
+        color: white;
+        border-radius: 16px 16px 16px 16px;
+        font-family: 'Roboto', sans-serif;
+    
+    }
+    .firstNav .firstUl li:hover {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    }
+    /* fechamento do primeiro menu de navegação*/
+   h1, h2, h3, h4, p{
+    color: white;
+   }
+   img{
+    width: 250px;
+   }
+   .spanSustentavel{
+    color:green
+   }
+
+   .spanSolar{
+    color:yellow;
+    
+}
+
+
+.container{
+    margin-left: 300px;
+}
+
+.content {
+display: flex;
+align-items: center; /* Alinha verticalmente */
+justify-content: space-between; /* Adiciona espaço entre os elementos */
+}
+
+.content img {
+    margin-left: 20px; /* Adiciona espaço à esquerda da imagem */
+}
+
+
+.Beneficios, p{
+font-size: large;
+
+}

@@ -1,0 +1,53 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container {
+    background: rgb(246,246,246);
+    background: linear-gradient(90deg, rgba(246,246,246,1) 0%, rgba(243,243,243,1) 3%, rgba(210,210,210,1) 32%, rgba(209,209,209,1) 64%, rgba(255,255,255,1) 88%);
+    margin: 300px;
+    border-radius: 40pt;
+    
+
+}
+
+.fcenter {
+    
+    text-align: center;
+}
+
+.archive {
+ display: inline-block;
+ 
+}
+
+.submit {
+
+display: inline-block;
+
+}
+
+.terms {
+    text-align:  center;
+}
+
+.marca {
+        width: 200px;
+}
+
+.iframe {
+    background-color: rgb(139, 136, 136);
+}
+
+.botton {
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.question {
+    text-align: justify;
+    margin-left: 130px;
+    margin-right: 130px;
+}

@@ -1,0 +1,167 @@
+@media (max-width: 800px) {
+    .firstNav .firstUl li {
+        margin: 10px 0; /* Menos margem para itens do menu principal */
+    }
+    .firstNav {
+        position: static; /* Remova a posição absoluta no menu principal */
+        background-color:rgb(32, 32, 32);
+        
+    }
+
+    .firstNav .firstUl {
+        flex-direction: column; /* Empilhe os itens do menu principal */
+    }
+
+    .firstNav .firstUl li {
+        margin: 10px 0; /* Reduza as margens dos itens do menu principal */
+        background-color: rgb(32, 32, 32);
+    }
+
+    .secondNav {
+        align-items: center;
+        background-color: #F7F7F7;
+    }
+
+    .secondNav img {
+        width: 25%; /* Faça a imagem do segundo menu ocupar a largura total */
+    }
+
+    .secondNav .secondUl {
+        flex-direction: column; /* Empilhe os itens do segundo menu */
+        margin: 10px 0; /* Reduza a margem dos itens do segundo menu */
+    }
+
+    .secondNav .secondUl li {
+        margin-left: 0; /* Alinhe os itens do segundo menu à esquerda */
+    }
+
+    .img1 {
+        max-width: 100%; /* Faça a imagem ocupar a largura total */
+        height: auto;
+        display: block;
+    }
+
+    .img2-align {
+        text-align: center;
+    display: block;
+    max-width: 100%; /* Define a largura máxima como 100% */
+    height: auto; /* Define a altura como "auto" para manter a proporção original */
+    margin: 10px 0;
+    }
+
+    .contactUS {
+        text-align: center; /* Alinhe o texto à esquerda */
+    }
+
+    .contactUS .icons {
+        text-align: center; /* Alinhe os ícones à esquerda */
+        margin: 10px 0; /* Reduza a margem dos ícones de contato */
+    }
+
+    .h1container {
+    display: flex;
+    flex-direction: column; /* Mude para uma coluna para colocar os elementos verticalmente */
+    align-items: center;
+    position: relative;
+}
+
+.h1first {
+    transition: 0.8s;
+    margin-right: auto;
+    padding-left: 30px; /* Ajuste conforme necessário */
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+}
+
+.h1container {
+    display: flex;
+    flex-direction: column; /* Mude para uma coluna para colocar os elementos verticalmente */
+    align-items: center;
+    position: relative;
+}
+
+.h1first {
+    transition: 0.8s;
+    margin-right: auto;
+    padding-left: 30px; /* Ajuste conforme necessário */
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+}
+
+.img1 {
+    transition: 0.8s;
+    display: block;
+    margin-top: 20px; /* Adicione um espaçamento entre o texto e a imagem */
+    max-width: 60%;
+    height: auto;
+    position: relative;
+    border-radius: 15px;
+    opacity: 0.5;
+    align-items: center;
+}
+.img2 {
+    transition: 0.8s;
+    display: block;
+    margin-left: 150px;
+    margin-top: 20px; /* Adicione um espaçamento entre o texto e a imagem */
+    max-width: 60%;
+    height: auto;
+    position: relative;
+    border-radius: 15px;
+    opacity: 0.5;
+    align-items: center;
+}
+
+/*AboutUS*/
+.container-ODS{
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 0px;
+}
+#objective{
+    margin-left: 50px;
+}
+#ethics{
+    margin-left: 50px;
+}
+#policy{
+    margin-left: 50px;
+}
+#security{
+    margin-left: 50px;
+}
+#privacy{
+    margin-left: 50px;
+}
+
+/*Comprometimento-ODS*/
+.titleODS{
+margin-left: 35px;
+}
+.container{
+margin-left: 0px;
+}
+
+.content{
+    display: block;
+    align-items: center; /* Alinha verticalmente */
+    justify-content: space-between; /* Adiciona espaço entre os elementos */
+}
+.Beneficios, p{
+    font-size: large;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+    }
+    .body{
+        transition: 0.8s;
+        background: rgb(0,0,0);
+        background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(54,52,52,1) 46%, rgba(45,43,43,1) 100%);
+        margin: 0px;
+        margin-left: 0px;
+        margin-right: 0px; 
+        
+    }
+}
